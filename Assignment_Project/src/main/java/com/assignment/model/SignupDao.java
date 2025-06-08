@@ -29,7 +29,6 @@ public class SignupDao {
 		            ps.setString(3, signup.getPassword());
 		            ps.setString(4, signup.getPreferredName());
 		            ps.setString(5, signup.getName());
-		            ps.executeUpdate();
 		  
 			System.out.println(ps);
 			result = ps.executeUpdate();
